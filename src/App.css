@@ -1,10 +1,28 @@
 .App {
   text-align: center;
 }
+.active{
+  color: rgb(218, 160, 160) ;
+  text-decoration: none;
+}
 
 body{
   background-color: rgba(115, 255, 255, 0.945);
 }
+
+a{
+  color: black;
+  font-size: 30px;}
+
+nav a {
+  margin: 10px;
+}  
+
+nav {
+  background-color: darkcyan;
+  padding: 10px;
+}
+
 
 h1 {
   font-size: 45px;
