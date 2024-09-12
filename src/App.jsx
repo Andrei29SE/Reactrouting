@@ -5,6 +5,8 @@ import About from './components/About';
 import Contacts from './components/Contacts';
 import NotFound from './components/NotFound';
 import MainLiayout from './Layouts/MainLiayout';
+import Courses from './components/Courses';
+import SingleCourse from './components/SingleCourse';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
   <Route path="about" element={<About/>}/>
   <Route path="contacts" element={<Contacts/>}/>
   <Route path="*" element={<NotFound/>}/>
+  <Route path="courses" element={<Courses />}/>
+  <Route path="courses/:slug" element={<SingleCourse />}/>
   </Route>
   </Routes>
   </div>

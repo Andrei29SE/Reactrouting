@@ -9,6 +9,13 @@
 body{
   background-color: rgba(115, 255, 255, 0.945);
 }
+.courseLink{
+  text-decoration: none;
+}
+.courseLink:hover{
+  text-decoration: underline;
+}
+
 
 a{
   color: black;
