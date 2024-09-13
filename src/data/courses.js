@@ -14,12 +14,8 @@ const courses = [
         title:'Ia predupredil!!',
         slug:'Python',
         id: 35
-    },
-    {
-        title:'Ladno idi pokupai',
-        slug:'С++',
-        id: 375
     }
+ 
 
 ]
   

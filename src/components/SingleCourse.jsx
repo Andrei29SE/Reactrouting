@@ -1,12 +1,12 @@
 import courses from "../data/courses"
-import { Link, useNavigate, useParams, useLocation } from "react-router-dom"
+import { Link, useNavigate, useParams} from "react-router-dom"
 // import NotFound from "./NotFound"
 import { useEffect } from "react"
 
 const SingleCourse = () => {
   const params = useParams()
   const navigate=useNavigate()
-  const location = useLocation()
+  
   const course = courses.find((course)=> course.slug === params.slug)
 //   if (!course) { return <NotFound/>}
 useEffect(()=> {
